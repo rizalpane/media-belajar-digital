@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+/* index.php */
+.box{
+    width: 20rem;
+}
+/* student.php */
+.size-img{
+    width: 200px;
+    height: 200px;
+}
+/* universal */
+.none{
+    text-decoration: none;
+}
+.transform-zoom{
+    -webkit-transition: transform 0.5s; /* For Safari 3.1 to 6.0 */
+  transition: transform 0.5s;
+}
+.transform-zoom:hover{
+    -ms-transform: scale(0.9, 0.9); /* IE 9 */
+    -webkit-transform: scale(0.9, 0.9); /* Safari */
+    transform: scale(0.9, 0.9); /* Standard syntax */
+}
